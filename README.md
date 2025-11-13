@@ -32,31 +32,31 @@ This setup can serve as a solid foundation for deploying web applications on AWS
 
 ![alt text](image.png)
 
-## 1.Clone the repo
+## 1. Clone the repo
 ``` bash
 git clone https://github.com/satheesh-kamadani/terraform-aws-infrastructure.git
 cd terraform-aws-infrastructure
 ```
-## 2.Initialize Terraform
+## 2. Initialize Terraform
 ``` bash
   terraform init
 ```
-## 3.Preview the plan
+## 3. Preview the plan
 ``` bash
 terraform plan
 ```
-## 4.Apply the configuration
+## 4. Apply the configuration
 ``` bash
 terraform apply -auto-approve
 ```
-## 5.Get the Load Balancer DNS
+## 5. Get the Load Balancer DNS
 ``` bash
 terraform output loadbalancerdns
 ```
-## 6.Access your web app
+## 6. Access your web app
 - Open the DNS URL in your browser to see your running EC2 web servers behind the ALB.
 
-## 7.Cleanup
+## 7. Cleanup
 ``` bash
 terraform destroy -auto-approve
 ```
