@@ -1,6 +1,6 @@
 # 🌩️ AWS Infrastructure with Terraform
 
-This project demonstrates how to **provision and manage AWS infrastructure using Terraform** — following Infrastructure-as-Code (IaC) best practices.
+This project demonstrates how to **provision and manage AWS infrastructure using Terraform**, following Infrastructure-as-Code (IaC) best practices.
 
 It creates a **complete, production-style environment** including a custom VPC, public subnets, EC2 instances, a load balancer, and an S3 bucket.  
 This setup can serve as a solid foundation for deploying web applications on AWS.
@@ -10,6 +10,7 @@ This setup can serve as a solid foundation for deploying web applications on AWS
 ## 🚀 Project Overview
 
 ### Resources Provisioned
+
 | Category | Resource | Description |
 |-----------|-----------|-------------|
 | **Networking** | VPC | Custom VPC with CIDR block `10.0.0.0/16` |
@@ -24,16 +25,25 @@ This setup can serve as a solid foundation for deploying web applications on AWS
 
 ---
 
-## Screenshots
-- Web server 1 - screenshots/server1.png
-- Web server 2 - screenshots/server2.png
+## 🖼️ Screenshots
+
+| Resource | Screenshot |
+|-----------|-------------|
+| Web Server 1 | `screenshots/server1.png` |
+| Web Server 2 | `screenshots/server2.png` |
+
+---
 
 ## 🧱 Architecture Diagram
 
-![alt text](image.png)
+![Architecture Diagram](image.png)
 
-## 1. Clone the repo
-``` bash
+---
+
+## ⚙️ Deployment Steps
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/satheesh-kamadani/terraform-aws-infrastructure.git
 cd terraform-aws-infrastructure
 ```
